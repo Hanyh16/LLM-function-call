@@ -1,0 +1,8 @@
+python3 -m sglang.launch_server -h
+
+python3 -m sglang.launch_server \
+  --model-path /root/Qwen2.5-7B-Instruct \
+  --tool-call-parser qwen25 \
+  --host 0.0.0.0 \
+  --port 3000 \
+  --skip-server-warmup
